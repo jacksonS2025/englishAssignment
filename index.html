@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            body {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                background-color: #004aad;
+                height: 100vh;
+                margin: 0;
+                overflow-y: hidden;
+            }
+            
+            header {
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                font-size: 80px;
+                height: 10%;
+                margin-top: 30px;
+            }
+
+       
+
+            .innerbody {
+                height: 90%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                overflow-y: hidden;
+                
+            }
+
+            .cleanEarth {
+                max-width: 100%;
+                max-height: 100%;
+                top: 75%;
+                object-fit: contain;
+                position: absolute;
+                z-index: 5;
+                resize: horizontal;
+                transition: all 0.2s ease-in;
+             
+            }
+
+            .imgRow .cleanEarth {
+                transition: all 0.4s ease-out;
+            }
+
+            .dirtyEarth {
+                max-width: 100%;
+                max-height: 100%;
+                top: 75%;
+                object-fit: contain;
+                position: absolute;
+            }
+
+            .imgRow {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+            .imageContainer {
+                max-width: 100%;
+                max-height: 100%;
+                object-fit: contain;
+            }
+
+            .cleanEarth:hover {
+                
+                opacity: 0;     
+
+
+            }
+
+            .paragraph {
+                font-size: 50px;
+                color: white;
+                width: 400px;
+                margin-left: 30px;
+                
+            }
+
+            .textrow {
+                display: flex;
+                flex-direction: row;
+                justify-content: left;
+                align-items: center;
+                width: 100%;
+            }
+        </style>
+
+        <title>Save The Earth.</title>
+        <link rel="icon" type="webp" href="https://github.com/jacksonS2025/englishAssignment/raw/refs/heads/main/dirtyEarth.webp">
+    </head>
+    
+<body>
+    <header>
+       <h1 >End It.</h1>
+    </header>
+
+    <div class="innerbody">
+
+        <div class="textrow">
+        <h3 class="paragraph">About 97,103,871 barrels of oil are used a year* </h3>
+        <img src="https://github.com/jacksonS2025/englishAssignment/raw/refs/heads/main/oilRefinery.webp" style="max-width: 70%; max-height: 70%; object-fit: contain;">
+
+        
+    </div>
+
+    <div class="textrow" style="justify-content: end;">
+        <img src="https://github.com/jacksonS2025/englishAssignment/raw/refs/heads/main/arrow.svg" style="max-width: 90px; max-height: 90px; object-fit: contain;">
+        <h2 style="color: white; margin-right: 20px;">Hover to see the punishment by not taking action</h2>
+        <h3 class="paragraph" style="margin-left: 0; margin-right: 70px; width: 500px;">Africa is suffering  disproportionate risks from climate change ruining their crops, infrastructure, education and the list goes on</h3>
+
+        
+    </div>  
+
+        <div class="imgRow">
+
+        <img src="https://github.com/jacksonS2025/englishAssignment/raw/refs/heads/main/dirtyEarth.webp" alt="earthimg" class="dirtyEarth">
+        <img src="https://github.com/jacksonS2025/englishAssignment/raw/refs/heads/main/cleanEarth.webp" class="cleanEarth">
+
+    </div>
+    </div>
+</body>
+
+<script>
+    
+</script>
+</html>
