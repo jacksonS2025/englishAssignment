@@ -7,6 +7,7 @@
                 background-color: #004aad;
                 height: 100vh;
                 margin: 0;
+              
                 overflow-y: hidden;
             }
             
@@ -28,7 +29,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                flex-direction: column;
+                flex-direction: row;
                 overflow-y: hidden;
                 
             }
@@ -59,10 +60,11 @@
 
             .imgRow {
                 height: 100%;
-                width: 100%;
+                width: 50%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                flex-direction: column;
 
             }
 
@@ -80,11 +82,11 @@
             }
 
             .paragraph {
-                font-size: 50px;
+                font-size: 30px;
                 color: white;
                 width: 400px;
                 margin-left: 30px;
-                
+                font-weight: 100;
             }
 
             .textrow {
@@ -92,7 +94,7 @@
                 flex-direction: row;
                 justify-content: left;
                 align-items: center;
-                width: 100%;
+                
             }
         </style>
 
@@ -107,27 +109,21 @@
 
     <div class="innerbody">
 
-        <div class="textrow">
-        <h3 class="paragraph">About 97,103,871 barrels of oil are used a year* </h3>
-        <img src="https://github.com/jacksonS2025/englishAssignment/raw/refs/heads/main/oilRefinery.webp" style="max-width: 70%; max-height: 70%; object-fit: contain;">
+    <div class="imgRow">
 
-        
-    </div>
-
-    <div class="textrow" style="justify-content: end;">
-        <img src="https://github.com/jacksonS2025/englishAssignment/raw/refs/heads/main/arrow.svg" style="max-width: 90px; max-height: 90px; object-fit: contain;">
         <h2 style="color: white; margin-right: 20px;">Hover to see the punishment by not taking action</h2>
-        <h3 class="paragraph" style="margin-left: 0; margin-right: 70px; width: 500px;">Africa is suffering  disproportionate risks from climate change ruining their crops, infrastructure, education and the list goes on</h3>
-
-        
-    </div>  
-
-        <div class="imgRow">
-
+        <img src="https://github.com/jacksonS2025/englishAssignment/raw/refs/heads/main/arrow.svg" style="max-width: 90px; max-height: 90px; object-fit: contain;">
         <img src="https://github.com/jacksonS2025/englishAssignment/raw/refs/heads/main/dirtyEarth.webp" alt="earthimg" class="dirtyEarth">
         <img src="https://github.com/jacksonS2025/englishAssignment/raw/refs/heads/main/cleanEarth.webp" class="cleanEarth">
-
     </div>
+    <div class="textrow" style="justify-content: end; flex-direction: column;">
+      
+        <h3 class="paragraph" style="margin-left: 0; margin-right: 70px; width: 500px; text-align: center;">Africa is suffering  disproportionate risks from climate change ruining their crops, infrastructure, education and the list goes <span style="font-weight: 700;">on</span></h3>
+
+        <h3 class="paragraph" style="text-align: center;">About 97,103,871 barrels of oil are used a year* </h3>
+    </div>  
+
+
     </div>
 </body>
 
